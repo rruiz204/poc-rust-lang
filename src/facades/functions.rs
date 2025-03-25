@@ -7,10 +7,6 @@ fn concat(mut text_a: String, text_b: String) -> String {
     text_a
 }
 
-fn clousure() {
-    println!("clousure example");
-}
-
 fn proxy(func: fn()) {
     func();
 }
@@ -31,5 +27,6 @@ pub fn facade() {
 
 
     println!("=== Functions with clousures as parameters");
+    let clousure = || println!("clousure example");
     proxy(clousure);
 }
