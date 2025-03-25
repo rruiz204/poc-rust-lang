@@ -1,3 +1,5 @@
+use poc_rust_lang::facades::variables;
+
 fn main() {
-    println!("Hello, world!");
+    variables::facade();
 }
