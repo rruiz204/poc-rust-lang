@@ -6,4 +6,8 @@ pub fn facade() {
     println!("=== Floats");
     let float: f64 = 3.14;
     println!("float: {}", float);
+
+    println!("=== Booleans");
+    let maybe: bool = true;
+    println!("boolean: {}", maybe);
 }
