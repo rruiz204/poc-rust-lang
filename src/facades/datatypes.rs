@@ -18,4 +18,8 @@ pub fn facade() {
     println!("=== Strings");
     let string: String = String::from("hello world");
     println!("string: {}", string);
+
+    println!("=== Slices");
+    let slice: &str = &string[0..5];
+    println!("slice: {}", slice);
 }
