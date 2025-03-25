@@ -10,4 +10,8 @@ pub fn facade() {
     println!("=== Booleans");
     let maybe: bool = true;
     println!("boolean: {}", maybe);
+
+    println!("=== Characters");
+    let letter: char = 'R';
+    println!("letter: {}", letter);
 }
