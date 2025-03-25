@@ -14,4 +14,8 @@ pub fn facade() {
     println!("=== Characters");
     let letter: char = 'R';
     println!("letter: {}", letter);
+
+    println!("=== Strings");
+    let string: String = String::from("hello world");
+    println!("string: {}", string);
 }
