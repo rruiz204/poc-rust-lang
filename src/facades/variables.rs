@@ -24,4 +24,13 @@ pub fn facade() {
 
     let imt_ref_string: &String = &imt_string;
     println!("inmutable reference: {}", imt_ref_string);
+
+
+    println!("=== Mutable references in Borrowing");
+    let mut mtb_string: String = String::from("mutable text");
+    println!("before mutable string: {}", mtb_string);
+
+    let mtb_ref_string: &mut String = &mut mtb_string;
+    mtb_ref_string.push_str(" with more text");
+    println!("after mutable string: {}", mtb_string);
 }
