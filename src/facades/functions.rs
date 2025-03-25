@@ -7,6 +7,14 @@ fn concat(mut text_a: String, text_b: String) -> String {
     text_a
 }
 
+fn clousure() {
+    println!("clousure example");
+}
+
+fn proxy(func: fn()) {
+    func();
+}
+
 pub fn facade() {
     println!("=== Functions with parameters");
     let result: i32 = sum(10, 19);
@@ -20,4 +28,8 @@ pub fn facade() {
     println!("text_a is invalid because it move to concat scope");
     let result: String = concat(text_a, text_b);
     println!("The result is: {}", result);
+
+
+    println!("=== Functions with clousures as parameters");
+    proxy(clousure);
 }
