@@ -1,3 +1,4 @@
+pub mod structs;
 pub mod matching;
 pub mod datatypes;
 pub mod variables;

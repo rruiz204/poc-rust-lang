@@ -3,6 +3,7 @@ use poc_rust_lang::facades::datatypes;
 use poc_rust_lang::facades::functions;
 use poc_rust_lang::facades::controlled;
 use poc_rust_lang::facades::matching;
+use poc_rust_lang::facades::structs;
 
 fn main() {
     variables::facade();
@@ -10,4 +11,5 @@ fn main() {
     functions::facade();
     controlled::facade();
     matching::facade();
+    structs::facade();
 }
