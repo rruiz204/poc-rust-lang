@@ -1,10 +1,12 @@
-use poc_rust_lang::facades::variables;
-use poc_rust_lang::facades::datatypes;
-use poc_rust_lang::facades::functions;
-use poc_rust_lang::facades::controlled;
-use poc_rust_lang::facades::matching;
-use poc_rust_lang::facades::structs;
-use poc_rust_lang::facades::enums;
+use crate::facades::variables;
+use crate::facades::datatypes;
+use crate::facades::functions;
+use crate::facades::controlled;
+use crate::facades::matching;
+use crate::facades::structs;
+use crate::facades::enums;
+
+pub mod facades;
 
 fn main() {
     variables::facade();
