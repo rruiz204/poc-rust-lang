@@ -1,3 +1,4 @@
+pub mod enums;
 pub mod structs;
 pub mod matching;
 pub mod datatypes;

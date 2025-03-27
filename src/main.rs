@@ -4,6 +4,7 @@ use poc_rust_lang::facades::functions;
 use poc_rust_lang::facades::controlled;
 use poc_rust_lang::facades::matching;
 use poc_rust_lang::facades::structs;
+use poc_rust_lang::facades::enums;
 
 fn main() {
     variables::facade();
@@ -12,4 +13,5 @@ fn main() {
     controlled::facade();
     matching::facade();
     structs::facade();
+    enums::facade();
 }
