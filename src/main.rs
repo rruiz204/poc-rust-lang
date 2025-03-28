@@ -4,6 +4,7 @@ use crate::facades::functions;
 use crate::facades::controlled;
 use crate::facades::matching;
 use crate::facades::structs;
+use crate::facades::vectors;
 use crate::facades::enums;
 
 pub mod facades;
@@ -16,4 +17,5 @@ fn main() {
     matching::facade();
     structs::facade();
     enums::facade();
+    vectors::facade();
 }
