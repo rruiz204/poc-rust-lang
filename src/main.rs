@@ -6,6 +6,7 @@ use crate::facades::matching;
 use crate::facades::structs;
 use crate::facades::vectors;
 use crate::facades::enums;
+use crate::facades::exceptions;
 
 pub mod facades;
 
@@ -18,4 +19,5 @@ fn main() {
     structs::facade();
     enums::facade();
     vectors::facade();
+    exceptions::facade();
 }
