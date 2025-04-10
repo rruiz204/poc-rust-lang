@@ -8,3 +8,8 @@ Rust is a modern, high-performance, memory-safe programming language. It combine
 - Ownership System, Rules and Scoping.
 - Shadowing and Borrowing in Variables.
 - Mutability and Inmutability in Variables.
+- Movements between scopes and Memory Safety.
+
+**Knowledge's of Day #2**
+- Memory release through Drops.
+- Explicit Reference Counting Theory.
