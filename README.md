@@ -5,3 +5,6 @@ Rust is a modern, high-performance, memory-safe programming language. It combine
 - Tools: Cargo, Rustc and Rustup.
 - Concepts: Toolchains and Binaries.
 - Strict Typing Systems and Variables.
+- Ownership System, Rules and Scoping.
+- Shadowing and Borrowing in Variables.
+- Mutability and Inmutability in Variables.
