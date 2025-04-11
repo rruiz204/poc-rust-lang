@@ -15,3 +15,5 @@ Rust is a modern, high-performance, memory-safe programming language. It combine
 - Synchronous and Asynchronous Code.
 - Explicit Reference Counting Theory.
 - Concurrency and Parallelism Theory.
+- Single Threading and Multi Threading.
+- Smart Pointers for Reference Counting.
