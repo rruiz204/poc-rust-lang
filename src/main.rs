@@ -5,4 +5,6 @@ fn main() {
     facades::core::variables::showcase();
     facades::core::shadowing::showcase();
     facades::core::borrowing::showcase();
+    
+    facades::core::conditions::showcase();
 }
