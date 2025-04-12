@@ -22,3 +22,8 @@ Rust is a modern, high-performance, memory-safe programming language. It combine
 - Smart Pointers for Reference Counting.
 
 **Knowledge's of Day #3**
+- Manage Vectors and Hashes.
+- Enums and Pattern Matching.
+- Manage Nullable & Exceptions.
+- Structs and Implementation Blocks.
+- Structs and Traits Implementation.
