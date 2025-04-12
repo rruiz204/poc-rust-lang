@@ -1,6 +1,7 @@
 mod facades;
 
 fn main() {
+    facades::matching::showcase();
     facades::core::loops::showcase();
     facades::collections::showcase();
     facades::core::datatypes::showcase();
