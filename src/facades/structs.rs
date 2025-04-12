@@ -1,3 +1,7 @@
+trait Display {
+  fn display(&self) {}
+}
+
 struct Record {
   pub active: bool,
   pub prototype: i32,
@@ -15,8 +19,10 @@ impl Record {
   pub fn set_prototype(&mut self, prototype: i32) {
     self.prototype = prototype;
   }
+}
 
-  pub fn display(&self) {
+impl Display for Record {
+  fn display(&self) {
     println!("Active: {}", self.active);
     println!("Prototype: {}", self.prototype);
   }
@@ -28,7 +34,7 @@ pub fn showcase() {
 
   rc1.display();
   rc1.set_active(false);
-  
+
   rc1.set_prototype(102);
   rc1.display();
 }
