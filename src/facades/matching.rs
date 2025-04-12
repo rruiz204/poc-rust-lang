@@ -23,4 +23,12 @@ pub fn showcase() {
 
   let step: Step = Step::Thirty;
   casino(step);
+
+
+  println!("=== Manage Nullable values");
+  let nullable: Option<i32> = Some(30);
+
+  if let Some(value) = nullable {
+    println!("The value is not null: {}", value);
+  }
 }
