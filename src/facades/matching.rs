@@ -31,4 +31,11 @@ pub fn showcase() {
   if let Some(value) = nullable {
     println!("The value is not null: {}", value);
   }
+
+  println!("=== Manage Exception values");
+  let result: Result<i32, String> = Ok(10);
+
+  if let Ok(re) = result {
+    println!("The exception was successful: {}", re);
+  }
 }
