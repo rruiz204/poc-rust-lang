@@ -1,4 +1,4 @@
-use std::collections::HashMap;
+use std::collections::{HashMap, HashSet};
 
 pub fn showcase() {
   println!("=== Vectors");
@@ -23,5 +23,17 @@ pub fn showcase() {
 
   if let Some(score) = scores.get("R") {
     println!("Score: {}", score);
+  }
+
+
+  println!("=== HashSets");
+  let mut sett: HashSet<i32> = HashSet::new();
+
+  sett.insert(100);
+  sett.insert(200);
+  sett.insert(100);
+
+  for item in sett {
+    println!("Item: {}", item);
   }
 }
