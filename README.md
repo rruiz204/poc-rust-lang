@@ -27,3 +27,5 @@ Rust is a modern, high-performance, memory-safe programming language. It combine
 - Manage Nullable & Exceptions.
 - Structs and Implementation Blocks.
 - Structs and Traits Implementation.
+
+**Knowledge's of Day #4**
