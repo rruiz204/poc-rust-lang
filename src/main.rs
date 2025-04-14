@@ -13,5 +13,6 @@ fn main() {
     facades::core::borrowing::showcase();
     facades::core::functions::showcase();
     
+    facades::exceptions::showcase();
     facades::core::conditions::showcase();
 }
