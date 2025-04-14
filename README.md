@@ -29,3 +29,5 @@ Rust is a modern, high-performance, memory-safe programming language. It combine
 - Structs and Traits Implementation.
 
 **Knowledge's of Day #4**
+- Exception Handling.
+- Structs and Default Traits.
