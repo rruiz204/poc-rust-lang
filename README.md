@@ -35,3 +35,6 @@ Rust is a modern, high-performance, memory-safe programming language. It combine
 - Trait Bounds through Dynamic Dispatch.
 - Traits: Fn, FnMut & FnOnce for Clousures.
 - Typing, Primitives, Functions and Aliases.
+
+**Knowledge's of Day #5**
+- Lifetimes and Scope Blocks.
